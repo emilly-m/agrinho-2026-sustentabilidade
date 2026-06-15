@@ -1,1 +1,211 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agrinho 2026 - Agro Forte, Futuro Sustentável: equilíbrio entre produção e meio ambiente">
+    <meta name="keywords" content="sustentabilidade, agro, agricultura, meio ambiente, Agrinho 2026">
+    <meta name="author" content="Concurso Agrinho 2026">
+    <meta name="theme-color" content="#1d7a3c">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="leaf-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.92 7.02C17.45 4.18 14.97 2 12 2c-2.97 0-5.45 2.18-5.92 5.02C3.97 7.55 2 9.69 2 12.5 2 15.57 4.43 18 7.5 18h10c3.07 0 5.5-2.43 5.5-5.5 0-2.81-1.97-5.05-4.58-5.48z"/>
+                </svg>
+                <span>Agrinho 2026</span>
+            </div>
+            <nav class="nav" role="navigation" aria-label="Menu principal">
+                <a href="#sustentabilidade" class="nav-link">Sustentabilidade</a>
+                <a href="#praticas" class="nav-link">Práticas</a>
+                <a href="#impacto" class="nav-link">Impacto</a>
+                <a href="#quiz" class="nav-link">Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Agro Forte, Futuro Sustentável</h1>
+                <p>O equilíbrio entre a produção agropecuária e a preservação do meio ambiente é a chave para um futuro próspero.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('sustentabilidade').scrollIntoView({behavior: 'smooth'})">Explorar Soluções</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('praticas').scrollIntoView({behavior: 'smooth'})">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="100" cy="100" r="80"/>
+                    <path d="M100 40 Q140 70 140 100 Q140 140 100 160 Q60 140 60 100 Q60 70 100 40"/>
+                    <circle cx="100" cy="100" r="20" fill="white" opacity="0.3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustentabilidade Section -->
+    <section id="sustentabilidade" class="sustentabilidade">
+        <div class="container">
+            <h2>Os Três Pilares da Sustentabilidade</h2>
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-icon">🌱</div>
+                    <h3>Produção Responsável</h3>
+                    <p>Técnicas agrícolas que respeitam o solo, a água e a biodiversidade, garantindo colheitas abundantes sem comprometer o futuro.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">💧</div>
+                    <h3>Gestão da Água</h3>
+                    <p>Uso consciente e eficiente da água através de irrigação inteligente, captação de chuva e conservação de recursos hídricos.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">🌍</div>
+                    <h3>Redução de Emissões</h3>
+                    <p>Práticas que diminuem a pegada de carbono, como rotação de culturas, energia renovável e manejo do solo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Práticas Section -->
+    <section id="praticas" class="praticas">
+        <div class="container">
+            <h2>Práticas Sustentáveis em Ação</h2>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="equilibrio">Equilíbrio</button>
+                <button class="tab-btn" data-tab="producao">Produção</button>
+                <button class="tab-btn" data-tab="ambiente">Ambiente</button>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-text">
+                    <h3 id="tab-title">Equilíbrio Perfeito</h3>
+                    <p id="tab-description">O verdadeiro sucesso agrícola vem do equilíbrio entre produção e preservação. Quando o agricultor trabalha em harmonia com a natureza, os resultados são extraordinários.</p>
+                    <ul id="tab-list">
+                        <li>✓ Maior produtividade</li>
+                        <li>✓ Solos mais férteis</li>
+                        <li>✓ Ecossistemas resilientes</li>
+                    </ul>
+                </div>
+                <div class="tab-image" id="tab-image">
+                    <div class="image-placeholder">❤️</div>
+                    <p id="tab-image-text">Natureza e Produção em Harmonia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Section -->
+    <section id="impacto" class="impacto">
+        <div class="container">
+            <h2>Impacto Mensurável</h2>
+            <div class="impacto-grid">
+                <div class="impacto-item">
+                    <div class="impacto-number">30%</div>
+                    <div class="impacto-label">Aumento de Produtividade</div>
+                </div>
+                <div class="impacto-item">
+                    <div class="impacto-number">50%</div>
+                    <div class="impacto-label">Redução de Água Usada</div>
+                </div>
+                <div class="impacto-item">
+                    <div class="impacto-number">40%</div>
+                    <div class="impacto-label">Menos Emissões de Carbono</div>
+                </div>
+                <div class="impacto-item">
+                    <div class="impacto-number">85%</div>
+                    <div class="impacto-label">Satisfação dos Agricultores</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2>Teste Seu Conhecimento</h2>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h3>Quiz de Sustentabilidade</h3>
+                    <div class="quiz-progress">
+                        <div class="quiz-progress-bar" id="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="quiz-content">
+                    <div class="quiz-question" id="quiz-question"></div>
+                    <div class="quiz-options" id="quiz-options"></div>
+                    <div class="quiz-explanation hidden" id="quiz-explanation">
+                        <p id="explanation-text"></p>
+                    </div>
+                    <button class="btn btn-primary hidden" id="quiz-button">Próxima Questão</button>
+                    <div class="quiz-results hidden" id="quiz-results">
+                        <div class="quiz-score" id="final-score"></div>
+                        <div class="quiz-message" id="quiz-message"></div>
+                        <div class="quiz-feedback" id="quiz-feedback">
+                            <p id="feedback-text"></p>
+                        </div>
+                        <button class="btn btn-primary" id="restart-btn" style="width: 100%;">Fazer Quiz Novamente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Junte-se ao Movimento Sustentável</h2>
+                <p>Cada ação conta. Descubra como você pode contribuir para um agro mais forte e um futuro mais sustentável.</p>
+                <button class="btn btn-light">Comece Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Agrinho 2026</h4>
+                    <p>Promovendo sustentabilidade no agro através da educação e inovação.</p>
+                </div>
+                <div>
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                        <li><a href="#praticas">Práticas</a></li>
+                        <li><a href="#impacto">Impacto</a></li>
+                        <li><a href="#quiz">Quiz</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Sobre o Programa</h4>
+                    <p>
+                        Programa Agrinho 2026<br>
+                        Sistema FAEP/SENAR-PR<br>
+                        Paraná, Brasil
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agrinho. Desenvolvido com sustentabilidade em mente.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
